@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2a88360466.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header"> 
+        <div class="container">
+            <nav>
+                <img src="https://raw.githubusercontent.com/singhprincekumar12006011/Personal-website/master/Screenshot%202023-10-07%20224600.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+                
+            </nav>
+            <div class="header-text">
+                <p>Java Developer</p>
+                <h1>Hi, I'm <span>Prince</span> <br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://raw.githubusercontent.com/singhprincekumar12006011/Personal-website/master/princelecture.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Passionate computer science specialist with expertise in Java programming, 
+                        web development, and data science, as well as internship experience in 
+                        C and C++ programming. Throughout my academic and professional journey, 
+                        I have consistently demonstrated a commitment to excellence in software 
+                        development. My Java programming skills allow me to create efficient and 
+                        robust software solutions, while my proficiency in web development enables 
+                        me to build engaging and user-friendly web applications. 
+                        Additionally, my experience in data science equips me with the ability to 
+                        analyze and derive meaningful insights from complex datasets.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Java Programmer</span><br>Problem solving using java programming language</li>
+                                <li><span>web development</span><br>Desinging web applications</li>
+                                <li><span>Data Analyst</span><br>collects, processes, and interprets data to help organizations make informed decisions.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - Current</span><br>Working on Electric-Billing System projects using java</li>
+                                <li><span>2022</span><br>internship in C and C++ programming</li>
+                                <li><span>2022 - Current</span><br>Having experience in Tableau, Excel, Big-Data, Hadoop and Hive</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="projects">
+                            <ul>
+                                <li><span>Electric-Billing System</span><br>Electric-Billing System is a software-based application developed in Java programming.
+                                    The project aims at serving the department of electricity by computerizing the billing system.
+                                    </li>
+                                <li><span>Portfolio web site </span><br>This is desing using HTML, CSS, JavaScript.</li>
+                                <li><span>Snake Feeding Game</span><br>Programming language: Java.
+                                    The computer vision algorithm detects the snake and the food items in the game area.
+                                    The player controls the snake using a joystick or keyboard, and the computer vision algorithm tracks the movement of the snake.
+                                    </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!----------------------sevivces------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div class="design-text">
+                <i class="fa-solid fa-code"></i>
+                <h2 class="sub-title">
+                    Web Design
+                </h2>
+                <p>
+                    As an engineer with a passion for creative design and 
+                    a deep understanding of web technologies, I offer a range
+                    of web design services tailored to meet your specific needs. 
+                    Whether you're an individual looking to establish an online 
+                    presence, a startup seeking a captivating website, or a 
+                    business aiming to revamp your digital image, I have the 
+                    skills and expertise to bring your vision to life. Here are 
+                    some of the services I provide:
+                </p>
+                <ul class="list-padding">
+                    <li>Custom Website Design</li>
+                    <li>Resposive Design</li>
+                    <li>Content Management System (CMS)</li>
+                </ul>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="design-text">
+                <i class="fa-brands fa-java"></i>
+                <h2 class="sub-title">
+                    Java Developer
+                </h2>
+                <p class="design-text">As an engineer with a strong background in Java development,
+                   I offer a wide range of services to help businesses and individuals
+                    harness the power of Java technology to build robust and efficient
+                    software solutions. Java is not just a programming language; it's 
+                    a versatile platform that can be leveraged for various applications.
+                    Here are the services I provide:</p>
+                    <ul class="list-padding">
+                        <li>
+                            Java Application Developer
+                        </li>
+                        <li>
+                            Web development with Java EE and Spring Boot
+                        </li>
+                        <li>
+                            Database Design and Management
+                        </li>
+                    </ul>
+                    <a href="#">Learn more</a>
+            </div>
+            <div class="design-text">
+                <i class="fa-solid fa-database"></i>
+                <h2 class="sub-title">
+                    Data Science
+                </h2>
+                <p>
+                    I offer a comprehensive suite of data science services that empower
+                     businesses to make informed decisions, optimize processes, and unlock
+                    the full potential of their data assets. Whether you are a startup aiming 
+                    to gain a competitive edge or an established enterprise seeking to harness 
+                    the power of data, my expertise in data science can help you achieve your 
+                    goals. Here are the services I provide:
+                </p>
+                <ul class="list-padding">
+                    <li>
+                        Data Analysis and Visualization
+                    </li>
+                    <li>
+                        Data cleaning and Preprocessing
+                    </li>
+                    <li>
+                        Big Data Analysis
+                    </li>
+                    <li>
+                        Data Mining and Pattern Recognition 
+                    </li>
+                    <li>
+                        Data Visualization and Dashboard development
+                    </li>
+                </ul>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--portfolio
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work-1.png">
+            </div>
+            <div class="work">
+                <img src="image/work-2.png">
+            </div><div class="work">
+                <img src="image/work-3.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+-->
+
+
+<!-----------concact------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>pk567874@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/prince-kumar-68b99923a/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100038780648754"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/PrinceK29995841"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/singhprincekumar12006011"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1Ewk-ih4m-QSFlDrg1NUq1_asqlzQVYh7/view?usp=drive_link" class="btn btn2">Download My CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder=""Your Message></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Prince. Made by Prince</p>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzmsa0-UE4QuFJGNfGsaxJs3w4zF78u1ReL5Ja1iSyRIpcJv0D1GcOX_5RLBxk4BC7pXQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset ()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
